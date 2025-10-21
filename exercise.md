@@ -37,7 +37,7 @@ A good rule of thumb:
 - An **ILO** global analysis (using ISCO data + GPT‑4 task mapping) suggests most occupations are **more exposed to augmentation than full automation**; clerical work shows the highest automation exposure.[^ilo]  
 - The **OECD Employment Outlook** finds early deployments more often **change job quality and tasks** than reduce employment outright—so far. Effects on job quantity may lag adoption.[^oecd]
 
-**Forecasts (always uncertain)**.  
+### Forecasts (always uncertain).  
 - The **WEF Future of Jobs 2025** projects ~**170 million jobs created** and ~**92 million displaced** globally by 2030 (a **net +78 million**), driven by tech, green transition, and demographics. Skills needs will shift toward AI/data, cybersecurity, and adaptability.[^wef2025]  
 - **McKinsey** modeling suggests ~**27–30% of hours** in Europe/US could be automated by 2030 (genAI accelerates this), implying millions of **occupational transitions** and a major **skills upgrade** agenda.[^mgi2024]
 
