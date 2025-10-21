@@ -28,11 +28,11 @@ A good rule of thumb:
 
 ## 2) What the best recent evidence says
 
-**Short‑term productivity effects (micro evidence)**.  
+### Short‑term productivity effects (micro evidence).  
 - A large field study in a Fortune 500 contact center found that giving agents a generative‑AI assistant increased **issues resolved per hour by ~14**%, with the **biggest gains for the least‑experienced agents**—and better customer sentiment.[^nber]  
 - A preregistered experiment with 444 professionals on writing tasks showed **time to complete fell ~37**% and **quality rose ~0.4 SD** with access to a chatbot; benefits were strongest for lower‑ability writers.[^noyzhang]
 
-**Medium‑term labor‑market exposure (macro evidence)**.  
+### Medium‑term labor‑market exposure (macro evidence).  
 - The **IMF** estimates about **40% of global employment** is exposed to AI (higher in advanced economies), with mixed effects: some jobs will be complemented (higher productivity, possibly higher wages), others displaced.[^imfblog]  
 - An **ILO** global analysis (using ISCO data + GPT‑4 task mapping) suggests most occupations are **more exposed to augmentation than full automation**; clerical work shows the highest automation exposure.[^ilo]  
 - The **OECD Employment Outlook** finds early deployments more often **change job quality and tasks** than reduce employment outright—so far. Effects on job quantity may lag adoption.[^oecd]
@@ -45,47 +45,47 @@ A good rule of thumb:
 
 ---
 
-3) Who’s at risk, who benefits?
+## 3) Who’s at risk, who benefits?
 
-Higher exposure (declining demand without reskilling):  
+### Higher exposure (declining demand without reskilling):  
 - Routine office support & clerical roles (data entry, scheduling, basic reporting).  
 - High‑volume customer support that is largely scriptable.  
 - Repetitive content generation without domain expertise.
 
-Lower exposure / likely complemented:  
+### Lower exposure / likely complemented:  
 - Roles with complex human interaction (healthcare, education, management).  
 - Skilled trades and on‑site physical work (until robots catch up).  
 - Jobs requiring domain knowledge + judgement + accountability (software, product, data, law—augmented rather than replaced).
 
-Early career boost: The contact‑center study and lab experiments show AI can encode and spread best practices, letting juniors perform closer to seniors sooner. That raises productivity—and sometimes wage pressure—but may also compress career ladders unless organizations redesign roles.
+**Early career boost**: The contact‑center study and lab experiments show AI can **encode and spread best practices**, letting juniors perform closer to seniors sooner. That raises **productivity**—and sometimes **wage pressure**—but may also **compress career ladders** unless organizations redesign roles.
 
 ---
 
-4) What actually changes inside a job?
+## 4) What actually changes inside a job?
 
-1. Time allocation shifts: less rough‑drafting, more reviewing, prompting, verifying.  
-2. Quality bars rise: if AI drafts “good enough”, human value moves to problem framing, data/context curation, taste, and verification.  
-3. Skills portfolio updates: promptcraft, toolchain literacy (APIs, automation), security/privacy hygiene, critical reading of AI output.  
-4. Metrics change: throughput and cycle time improve; judgement errors (hallucinations, misclassifications) become the new bottlenecks to manage.
+1. **Time allocation** shifts: less rough‑drafting, more reviewing, prompting, verifying.  
+2. **Quality bars** rise: if AI drafts “good enough”, human value moves to **problem framing, data/context curation, taste**, and **verification**.  
+3. **Skills portfolio** updates: promptcraft, toolchain literacy (APIs, automation), security/privacy hygiene, critical reading of AI output.  
+4. **Metrics** change: throughput and cycle time improve; judgement errors (hallucinations, misclassifications) become the new bottlenecks to manage.
 
-Design principle for teams: Automate the boring, amplify the human.
+> **Design principle for teams**: *Automate the boring, amplify the human*.
 
 ---
 
-5) What should you (a first‑year IT student) do?
+## 5) What should you (a first‑year IT student) do?
 
-- Master the basics of data + automation: get comfortable with CSVs, APIs, and workflow tools (n8n, GitHub Actions).  
-- Practice “prompt → verify → ship”: use AI to draft, but always check sources, test outputs, and document assumptions.  
-- Build a visible portfolio: small public repos showing before/after with and without AI (README demos, notebooks).  
-- Invest in durable skills: systems thinking, communication, security mindset, and domain context.  
-- Work in pairs/teams: peer review catches model errors and improves your prompts and specs.  
+- **Master the basics of data + automation**: get comfortable with CSVs, APIs, and workflow tools (n8n, GitHub Actions).  
+- **Practice “prompt → verify → ship**”: use AI to draft, but always check sources, test outputs, and document assumptions.  
+- **Build a visible portfolio**: small public repos showing before/after with and without AI (README demos, notebooks).  
+- **Invest in durable skills**: systems thinking, communication, security mindset, and domain context.  
+- **Work in pairs/teams**: peer review catches model errors and improves your prompts and specs.  
 
 A simple checklist for any AI‑assisted task:
 
 - [ ] Define the task and acceptance criteria.  
-- [ ] Draft with AI and log prompts.  
-- [ ] Verify: test, cite sources, run sanity checks.  
-- [ ] Document what the tool did vs. what you did.  
+- [ ] Draft with AI and **log prompts**.  
+- [ ] **Verify**: test, cite sources, run sanity checks.  
+- [ ] Document what the tool did vs. what **you** did.  
 - [ ] Commit in small steps with clear messages.  
 
 ---
